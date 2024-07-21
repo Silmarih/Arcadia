@@ -1,0 +1,326 @@
+/* General */
+body {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+
+    position: static;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: chartreuse;
+}
+
+.container_header {
+    display: flex;
+
+}
+
+form {
+    width: 50%;
+}
+
+
+
+input {
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: 50%;
+
+}
+
+/* Welcome */
+
+.catch_phrase {
+    position: absolute;
+    font-family: 'Calibri';
+    font-size: 2vw;
+    font-style: oblique;
+    margin-top: 8%;
+    margin-left: 25%;
+    color: aliceblue;
+}
+
+.welcome_first {
+    position: absolute;
+    font-family: 'Calibri';
+    text-align: right;
+    font-size: 2vw;
+    color: aliceblue;
+    margin-top: 16%;
+    margin-left: 65%;
+}
+
+.welcome_second {
+    position: absolute;
+    font-family: 'Calibri';
+    font-style: italic;
+    text-align: right;
+    font-size: 1.25vw;
+    color: aliceblue;
+    margin-top: 20%;
+    margin-left: 46%;
+}
+
+.welcome_third {
+    position: absolute;
+    font-family: 'Calibri';
+    text-align: right;
+    font-size: 1.25vw;
+    margin-top: 23%;
+    margin-left: 48%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 68, 31, 0.366);
+    backdrop-filter: blur(0.2rem);
+    padding: 1.5%;
+    border-radius: 1%;
+    border: solid rgba(5, 73, 66, 1);
+}
+
+/* Fonts*/
+
+.sue-ellen-francisco-regular {
+    font-family: "Sue Ellen Francisco", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Logo */
+.arcadia_logo {
+    z-index: auto;
+    position: absolute;
+    width: 21%;
+    margin-top: .25%;
+}
+
+
+
+.arcadia_logo:active {
+    background-color: rgba(0, 189, 44, 0.673);
+    border-radius: 34% / 45%;
+}
+
+/* Header buttons*/
+
+.header_band {
+    margin-bottom: -2px;
+}
+
+
+.container_header-features {
+    font-size: xx-large;
+    margin-top: 4.75%;
+    margin-left: 30%;
+    color: white;
+    position: absolute;
+}
+
+
+.container_header-zone {
+    font-size: xx-large;
+    margin-top: 4.75%;
+    margin-left: 40%;
+    color: white;
+    position: absolute;
+}
+
+.container_header-contact {
+
+    font-size: xx-large;
+    margin-top: 4.75%;
+    margin-left: 55%;
+    color: white;
+    position: absolute;
+}
+
+.container_header-connection {
+
+    font-size: xx-large;
+    margin-top: 4.75%;
+    margin-left: 90%;
+    color: white;
+    position: absolute;
+}
+
+/* Slider */
+
+.slider_title-habitats {
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.slider_border-habitats {
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+    margin-top: 1.3%;
+    margin-left: 52.5%
+}
+
+.slider_background-habitats {
+    margin-bottom: -2.35px;
+}
+
+.habitats_details {
+    position: absolute;
+    font-size: 1vw;
+    color: aliceblue;
+    font-family: 'calibri';
+    text-align: center;
+    margin-top: 5%;
+}
+
+.slider_title-animals {
+    position: absolute;
+    margin-left: 74%;
+    margin-top: -0.05%;
+    color: white;
+}
+
+.slider_border-animals {
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+    margin-top: 1.3%;
+    margin-left: 20%
+}
+
+.animals_details {
+    position: absolute;
+    font-family: 'Calibri';
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 58%;
+    color: white;
+}
+
+.slider_background-animals {
+    margin-top: -2px;
+}
+
+.slider_border-services-center {
+    z-index: 1;
+    position: absolute;
+    width: 20%;
+    margin-top: 12%;
+    margin-left: -60%
+}
+
+.slider_border-services-right {
+    position: absolute;
+    width: 20%;
+    margin-top: 8%;
+    margin-left: -30%;
+}
+
+.slider_border-services-left {
+    position: absolute;
+    width: 20%;
+    margin-top: 8%;
+    margin-left: -90%
+}
+
+.services_title {
+    position: absolute;
+    margin-left: 14.25%;
+}
+
+.services_banner {
+    position: absolute;
+    margin-top: 0%;
+
+}
+
+/* Opinion */
+
+.opinion_divider {
+    margin-top: 30%;
+    margin-left: 48%;
+}
+
+
+.opinion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(4, 82, 82, 0.73);
+    font-family: "Sue Ellen Francisco";
+    font-size: 2vw;
+    color: aliceblue;
+    width: 60%;
+    margin-left: 21%;
+}
+
+
+.opinion_box-slider {
+    z-index: 1;
+    position: absolute;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 48%;
+
+}
+
+.opinion_box-visitors-pseudo {
+    width: 100%
+}
+
+.opinion_box-visitors-opinion {
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.textarea_style {
+    display: flex;
+    margin-bottom: 5%;
+    width: 95%;
+    padding: 3%;
+}
+
+.input_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Footer box*/
+
+.footer_box {
+    display: flex;
+    margin-top: 0%;
+
+}
+
+.footer_box-information-data {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 60%;
+}
+
+.footer_box-information-legals {
+    position: absolute;
+    margin-top: 7.5%;
+    margin-left: 66.8%;
+}
+
+.footer_box-information-contact {
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 67.6%;
+}
+
+.footer_box-information-schedules {
+    position: absolute;
+    margin-top: 7.7%;
+    margin-left: 15%;
+}

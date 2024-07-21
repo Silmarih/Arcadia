@@ -1,0 +1,185 @@
+/* Mobile  */
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .header_burger {
+
+        position: absolute;
+        width: 5%;
+        height: 5%;
+        margin-top: 7%;
+        margin-left: 90%;
+        color: white;
+    }
+
+
+
+    .mobile_habitats-logo {
+        position: absolute;
+    }
+
+    .mobile_habitats-slider-border {
+        position: absolute;
+        width: 50%;
+        margin-top: 25%;
+        margin-left: 25%;
+    }
+
+    .desktop_habitats-logo {
+        display: none;
+    }
+
+    .mobile_animals-logo {
+        position: absolute;
+        margin-top: 60%;
+    }
+
+    .mobile_animals-slider-border {
+        position: absolute;
+        width: 50%;
+        margin-top: 85%;
+        margin-left: 25%;
+    }
+
+    .mobile_services-logo {
+        margin-top: 105%;
+    }
+
+    .mobile_services-slider-border {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 4%;
+    }
+
+    .mobile_opinion-slider {
+        position: absolute;
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+
+    .desktop_animals-logo {
+        display: none;
+    }
+
+    .desktop_services {
+        display: none;
+    }
+
+    .desktop_opinion {
+        display: none;
+    }
+
+    .opinion_divider {
+        margin-top: 50%;
+    }
+
+    footer {
+        z-index: 1;
+        position: absolute;
+        margin-top: 40%;
+    }
+
+}
+
+/* Tab */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .header_burger {
+        display: none;
+    }
+
+.header_nav {
+    display: block;
+}
+
+    .mobile_habitats-logo {
+        display: none;
+    }
+
+    .mobile_habitats-logo {
+        display: none;
+    }
+
+    .mobile_habitats-slider-border {
+        display: none;
+    }
+
+    .mobile_animals-logo {
+        display: none;
+    }
+
+    .mobile_animals-slider-border {
+        display: none;
+    }
+
+    .mobile_services-logo {
+        display: none;
+    }
+
+    .mobile_services-slider-border {
+        display: none;
+    }
+
+    .mobile_opinion-slider {
+        display: none;
+    }
+}
+
+/* Desktop*/
+
+@media screen and (min-width: 1025px) {
+    .header_burger {
+        display: none;
+    }
+
+    .mobile_habitats-logo {
+        display: none;
+    }
+
+    .mobile_habitats-slider-border {
+        display: none;
+    }
+
+    .mobile_animals-logo {
+        display: none;
+    }
+
+    .mobile_animals-slider-border {
+        display: none;
+    }
+
+    .mobile_services-logo {
+        display: none;
+    }
+
+    .mobile_services-slider-border {
+        display: none;
+    }
+
+    .mobile_opinion-slider {
+        display: none;
+    }
+}
+
+
+/* Adaptabilité de l'image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Burger menu*/
